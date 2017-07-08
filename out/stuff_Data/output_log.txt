@@ -17,19 +17,12 @@ Platform assembly: C:\Users\Torbe\Documents\Projects\Network-test\out\stuff_Data
 Loading C:\Users\Torbe\Documents\Projects\Network-test\out\stuff_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Torbe\Documents\Projects\Network-test\out\stuff_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\Torbe\Documents\Projects\Network-test\out\stuff_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.012 seconds
+- Completed reload, in  0.015 seconds
 Platform assembly: C:\Users\Torbe\Documents\Projects\Network-test\out\stuff_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Torbe\Documents\Projects\Network-test\out\stuff_Data\Managed\System.dll (this message is harmless)
 desktop: 3840x2160 60Hz; virtual: 3840x2160 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-<RI> Initialized touch support.
-UnloadTime: 0.644854 ms
-Setting up 4 worker threads for Enlighten.
-  Thread -> id: 4280 -> priority: 1 
-  Thread -> id: 1f48 -> priority: 1 
-  Thread -> id: 31d8 -> priority: 1 
-  Thread -> id: 3164 -> priority: 1 
 Initialize engine version: 5.6.1f1 (2860b30f0b54)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -56,19 +49,24 @@ desktop: 3840x2160 60Hz; virtual: 3840x2160 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.641532 ms
+UnloadTime: 0.671169 ms
 Setting up 4 worker threads for Enlighten.
   Thread -> id: 32cc -> priority: 1 
-  Thread -> id: 3ef8 -> priority: 1 
-  Thread -> id: 40c4 -> priority: 1 
-  Thread -> id: 2428 -> priority: 1 
-Log: connection {1} has been disconnected by timeout; address {::ffff:25.103.195.134:7777}
-ClientDisconnected due to error: Timeout
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Log: connection {1} has been disconnected by timeout; address {::ffff:25.103.195.134:7777}
-ClientDisconnected due to error: Timeout
+  Thread -> id: 45c8 -> priority: 1 
+  Thread -> id: b40 -> priority: 1 
+  Thread -> id: 730 -> priority: 1 
+<RI> Initialized touch support.
+UnloadTime: 0.584814 ms
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 3c48 -> priority: 1 
+  Thread -> id: 4480 -> priority: 1 
+  Thread -> id: 4470 -> priority: 1 
+  Thread -> id: 4488 -> priority: 1 
+reactor filed to acomplish request with code {1234}, bytesReceived {0}
+reactor filed to acomplish request with code {1234}, bytesReceived {0}
+reactor filed to acomplish request with code {1234}, bytesReceived {0}
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:61086}
+ServerDisconnected due to error: Timeout
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
