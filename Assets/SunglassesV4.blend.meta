@@ -1,0 +1,216 @@
+fileFormatVersion: 2
+guid: 1d55cd1ba505bbe4c90b7b1f150b4a8a
+timeCreated: 1499603572
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm_L
+    100002: Arm_L_001
+    100004: Arm_L_002
+    100006: Arm_L_003
+    100008: BezierCurve_001
+    100010: BezierCurve_002
+    100012: Cube
+    100014: Cube_001
+    100016: Cube_002
+    100018: Cube_004
+    100020: Cube_005
+    100022: Cube_006
+    100024: Cube_007
+    100026: Cube_008
+    100028: Frame_L
+    100030: Frame_L_001
+    100032: Frame_R
+    100034: FrameSizeCircle
+    100036: Lens_L
+    100038: Lens_L_001
+    100040: Lens_R
+    100042: NosePieceCircle
+    100044: NurbsPath
+    100046: NurbsPath_001
+    100048: NurbsPath_002
+    100050: NurbsPath_003
+    100052: //RootNode
+    100054: TopFramePiece
+    400000: Arm_L
+    400002: Arm_L_001
+    400004: Arm_L_002
+    400006: Arm_L_003
+    400008: BezierCurve_001
+    400010: BezierCurve_002
+    400012: Cube
+    400014: Cube_001
+    400016: Cube_002
+    400018: Cube_004
+    400020: Cube_005
+    400022: Cube_006
+    400024: Cube_007
+    400026: Cube_008
+    400028: Frame_L
+    400030: Frame_L_001
+    400032: Frame_R
+    400034: FrameSizeCircle
+    400036: Lens_L
+    400038: Lens_L_001
+    400040: Lens_R
+    400042: NosePieceCircle
+    400044: NurbsPath
+    400046: NurbsPath_001
+    400048: NurbsPath_002
+    400050: NurbsPath_003
+    400052: //RootNode
+    400054: TopFramePiece
+    2300000: Arm_L
+    2300002: Arm_L_001
+    2300004: Arm_L_002
+    2300006: Arm_L_003
+    2300008: BezierCurve_001
+    2300010: BezierCurve_002
+    2300012: Cube
+    2300014: Cube_001
+    2300016: Cube_002
+    2300018: Cube_004
+    2300020: Cube_005
+    2300022: Cube_006
+    2300024: Cube_007
+    2300026: Cube_008
+    2300028: Frame_L
+    2300030: Frame_L_001
+    2300032: Frame_R
+    2300034: FrameSizeCircle
+    2300036: Lens_L
+    2300038: Lens_L_001
+    2300040: Lens_R
+    2300042: NosePieceCircle
+    2300044: NurbsPath
+    2300046: NurbsPath_001
+    2300048: NurbsPath_002
+    2300050: NurbsPath_003
+    2300052: TopFramePiece
+    3300000: Arm_L
+    3300002: Arm_L_001
+    3300004: Arm_L_002
+    3300006: Arm_L_003
+    3300008: BezierCurve_001
+    3300010: BezierCurve_002
+    3300012: Cube
+    3300014: Cube_001
+    3300016: Cube_002
+    3300018: Cube_004
+    3300020: Cube_005
+    3300022: Cube_006
+    3300024: Cube_007
+    3300026: Cube_008
+    3300028: Frame_L
+    3300030: Frame_L_001
+    3300032: Frame_R
+    3300034: FrameSizeCircle
+    3300036: Lens_L
+    3300038: Lens_L_001
+    3300040: Lens_R
+    3300042: NosePieceCircle
+    3300044: NurbsPath
+    3300046: NurbsPath_001
+    3300048: NurbsPath_002
+    3300050: NurbsPath_003
+    3300052: TopFramePiece
+    4300000: NosePieceCircle
+    4300002: FrameSizeCircle
+    4300004: NurbsPath_001
+    4300006: NurbsPath
+    4300008: NurbsPath_003
+    4300010: NurbsPath_002
+    4300012: Lens_L
+    4300014: Lens_L_001
+    4300016: Frame_L_001
+    4300018: Cube_006
+    4300020: Arm_L_002
+    4300022: Arm_L_003
+    4300024: Cube_008
+    4300026: Cube_007
+    4300028: BezierCurve_002
+    4300030: Cube_001
+    4300032: Frame_L
+    4300034: BezierCurve_001
+    4300036: Cube
+    4300038: Cube_002
+    4300040: Arm_L
+    4300042: Arm_L_001
+    4300044: Cube_005
+    4300046: Cube_004
+    4300048: TopFramePiece
+    4300050: Frame_R
+    4300052: Lens_R
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
