@@ -15,6 +15,11 @@ public class PlayerController : NetworkBehaviour
 
         transform.Rotate(0, x, 0);
         transform.Translate(0, 0, z);
+        
+        if (Input.GetKeyDown ("space")) {
+            Vector3 up = transform.TransformDirection (Vector3.up);
+            GetComponent<Rigidbody>().AddForce (up * 5, ForceMode.Impulse);
+        }
     }
     
     public override void OnStartLocalPlayer()
