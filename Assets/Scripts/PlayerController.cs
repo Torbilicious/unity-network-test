@@ -5,6 +5,7 @@ using UnityStandardAssets.CrossPlatformInput;
 public class PlayerController : NetworkBehaviour
 {
     private Rigidbody body;
+    private RaycastHit hit;
 
     void Start()
     {
@@ -25,8 +26,8 @@ public class PlayerController : NetworkBehaviour
     private void FixedUpdate()
     {
         if (!isLocalPlayer) return;
-        
-        if (Input.GetKeyDown ("space") || CrossPlatformInputManager.GetButtonDown("Jump")) {
+
+        if ((Input.GetKeyDown ("space") || CrossPlatformInputManager.GetButtonDown("Jump")) && !isFalling(body)) {
             Vector3 up = transform.TransformDirection (Vector3.up);
             body.AddForce (up * 5, ForceMode.Impulse);
         }
@@ -35,5 +36,18 @@ public class PlayerController : NetworkBehaviour
     public override void OnStartLocalPlayer()
     {
         Camera.main.GetComponent<CameraFollow>().setTarget(gameObject.transform);
+    }
+
+    private bool isFalling(Rigidbody rigidbody)
+    {
+        Ray downRay = new Ray(rigidbody.transform.position, -Vector3.up); // this is the downward ray
+        if (Physics.Raycast(downRay, out hit))
+        {
+            var distance = hit.distance;
+
+            return distance > 1.1;
+        }
+
+        return true;
     }
 }
