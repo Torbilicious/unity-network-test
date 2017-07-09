@@ -16,4 +16,9 @@ public class PlayerController : NetworkBehaviour
         transform.Rotate(0, x, 0);
         transform.Translate(0, 0, z);
     }
+    
+    public override void OnStartLocalPlayer()
+    {
+        Camera.main.GetComponent<CameraFollow>().setTarget(gameObject.transform);
+    }
 }
