@@ -8,12 +8,9 @@
     public float distance = 5;
     public float height = 5;
 
-    private Vector3 playerPrevPos, playerMoveDir;
-
     // Use this for initialization
     void Start()
     {
-        playerPrevPos = playerTransform.position;
     }
 
 
@@ -22,18 +19,15 @@
      {
         if (playerTransform != null)
         {
-            playerMoveDir = playerTransform.position - playerPrevPos;
+            Vector3 playerMoveDir = playerTransform.forward;
 
             if (playerMoveDir != Vector3.zero)
             {
                 playerMoveDir.Normalize();
                 transform.position = playerTransform.position - playerMoveDir * distance;
                 transform.position = transform.position + new Vector3(0, height, 0);
-
-                transform.LookAt(playerTransform.position);
-
-                playerPrevPos = playerTransform.position;
             }
+            transform.LookAt(playerTransform.position);
         }
      }
  

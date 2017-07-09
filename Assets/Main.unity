@@ -1793,7 +1793,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 1207100581}
-  depth: -20
+  distance: 10
 --- !u!1 &814584570
 GameObject:
   m_ObjectHideFlags: 0
