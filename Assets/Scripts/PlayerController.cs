@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Networking;
 using UnityStandardAssets.CrossPlatformInput;
 
@@ -26,8 +27,8 @@ public class PlayerController : NetworkBehaviour
     private void FixedUpdate()
     {
         if (!isLocalPlayer) return;
-
-        if ((Input.GetKeyDown ("space") || CrossPlatformInputManager.GetButtonDown("Jump")) && !isFalling(body)) {
+        
+        if ((Input.GetKeyDown ("space") || CrossPlatformInputManager.GetButtonDown("Jump")) && !IsFalling()) {
             Vector3 up = transform.TransformDirection (Vector3.up);
             body.AddForce (up * 5, ForceMode.Impulse);
         }
@@ -38,16 +39,13 @@ public class PlayerController : NetworkBehaviour
         Camera.main.GetComponent<CameraFollow>().setTarget(gameObject.transform);
     }
 
-    private bool isFalling(Rigidbody rigidbody)
+    private bool IsFalling()
     {
-        Ray downRay = new Ray(rigidbody.transform.position, -Vector3.up); // this is the downward ray
-        if (Physics.Raycast(downRay, out hit))
-        {
-            var distance = hit.distance;
-
-            return distance > 1.1;
+        RaycastHit hit;
+        if (Physics.Raycast (transform.position, -Vector3.up, out hit)) {
+            return hit.distance > 1.1;
         }
 
-        return true;
+        throw new Exception("Could not create Raycast");
     }
 }
